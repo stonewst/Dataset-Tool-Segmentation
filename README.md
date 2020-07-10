@@ -31,6 +31,7 @@
 3 cd Dataset-Tool-Segmentation
 4 sh voc.sh 
 ```
+After these steps, the dataset is located in './data/' 
 
 &nbsp;
 
@@ -45,3 +46,6 @@
 1 cd Dataset-Tool-Segmentation
 2 sh camvid.sh
 ```
+After these steps, the dataset is located in './data/' 
+
+
