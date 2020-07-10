@@ -27,11 +27,16 @@ def gen_camvid_txt():
     txt_path = "data/CamVid/val.txt"
     list2txt(camvid_val_list, txt_path)
 
+    camvid_trainval_list = camvid_train_list + camvid_val_list
+    txt_path = "data/CamVid/trainval.txt"
+    list2txt(camvid_trainval_list, txt_path)
+
     for i in camvid_test_img_list:
         (former_name, extension) = os.path.splitext(i)
         camvid_test_list.append(former_name)
     txt_path = "data/CamVid/test.txt"
     list2txt(camvid_test_list, txt_path)
+    
 
 
 def list2txt(list, txt_path):
