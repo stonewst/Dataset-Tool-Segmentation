@@ -39,7 +39,7 @@ After these steps, the dataset is located in './data/'
 
 &emsp;&emsp;**It can achieve the following terms：**
 + Auto Download CamVid Dataset for Segmentation(11 semantic classes)
-+ Generate "train.txt", "val.txt" and "test.txt"
++ Generate "train.txt", "val.txt", "trainval.txt" and "test.txt"
 
 &emsp;&emsp;**Follow steps below:**  
 ```
